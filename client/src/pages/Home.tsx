@@ -3,11 +3,14 @@ import {Link} from "react-router-dom"
 
 function Home() {
     return (
-        <button>
+        <div className="bg-gradiant flex justify-center items-center h-[100vh]">
+            <button className="bg-black">
             <Link to="/speech">
                 Get Started
             </Link>
         </button>
+        </div>
+        
     )
 }
 

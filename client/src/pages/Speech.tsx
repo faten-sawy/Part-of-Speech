@@ -26,7 +26,7 @@ const Speach = () => {
     },[])
 
     const receveData = async ()=>{
-        const res = await fetch('http://localhost:5000/words')
+        const res = await fetch('http://localhost:4000/words')
         const s = await res.json()
         setSpeeches(s)
 
@@ -38,10 +38,7 @@ const Speach = () => {
 
         const buttons = document.querySelectorAll('button')
 
-        buttons.forEach((item)=>{
-            console.log(item)
-           item.disabled =true
-        })
+        changeDisabledButtons(buttons,true)
         ele.disabled =false
         
         if(item === speeches[index].pos){
@@ -56,7 +53,8 @@ const Speach = () => {
 
         }
     
-
+        /* change question */
+        
         setTimeout(()=>{
             
             setAnswer('')
@@ -67,13 +65,17 @@ const Speach = () => {
 
             }
             setIndex(index+1)
-            buttons.forEach((item)=>{
-                console.log(item)
-               item.disabled = false
-            })
+            changeDisabledButtons(buttons,false)
+           
         },2000)
-    
+    }
 
+    const changeDisabledButtons = (buttons:NodeListOf<HTMLButtonElement> , value:boolean)=>{
+
+        buttons.forEach((item)=>{
+            console.log(item)
+           item.disabled = value
+        })
 
     }
     return(

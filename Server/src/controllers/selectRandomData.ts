@@ -1,5 +1,5 @@
 import { Request,Response } from "express"
-const data = require("../TestData.json")
+const data = require("../../TestData.json")
 
 interface wordObj {
     id:number,

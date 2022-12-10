@@ -7,7 +7,7 @@ const ScoreRank = () =>{
     console.log(location.state.score)
 
     useEffect(()=>{
-      fetch('http://localhost:5000/rank',{
+      fetch('http://localhost:4000/rank',{
         method:'POST',
         headers: {
           'Content-Type': 'application/json'

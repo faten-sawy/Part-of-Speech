@@ -4,7 +4,7 @@ import calcRank from './controllers/calcRank'
 const app:Application = express()
 
 const cors = require("cors")
-const port = 5000
+const port = 4000
 app.use(cors())
 app.use(express.json())
 

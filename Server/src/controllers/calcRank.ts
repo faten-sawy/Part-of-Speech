@@ -1,6 +1,6 @@
 import { Response,Request } from "express"
 
-const {scoresList} = require("../TestData.json")
+const {scoresList} = require("../../TestData.json")
 
 const calcRank = (req:Request,res:Response) =>{
 
