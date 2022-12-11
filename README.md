@@ -16,7 +16,7 @@
   - handleChoose => fired on click answer
   - resetButtonsStyle => change buttons style when click at any one of them
   - changeToNextWord => change word after answer after 1 seccond<br/>
- 2-score rank has 1 function to get data from node
+2-score rank has 1 function to get data from node
   
  
 
