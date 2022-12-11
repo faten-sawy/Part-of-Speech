@@ -1,6 +1,6 @@
 # Part-of-Speech 
 
-## Features done
+## Extra Features
 ✅ use typescript <br/>
 ✅ unit testing using jasmin to endpoint controllers <br/>
 ✅ responsive <br/>
