@@ -15,3 +15,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer components {
+  .bg--container {
+    @apply bg-gradient-to-br from-[#09203f]  via-[#2d4a69] to-[#537895]
+  }
+  .second--container {
+    @apply relative w-full flex flex-col items-center
+  }
+  .word--style {
+    @apply text-white text-7xl mt-[25vh]
+  }
+  .buttons--container {
+    @apply flex flex-wrap justify-center mt-20
+  }
+  .button-container {
+    @apply min-h-[50px]  min-[400px]:mr-4 rounded-[50px] mb-4 h-auto min-w-[130px] bg-gradient-to-r from-[#f47c34] to-[#e03f97]
+  }
+  .button {
+    @apply text-white text-xl h-[56px] rounded-[50px] w-[126px] m-[3px] bg-[#2d4a69]
+  }
+  .rank--container {
+    @apply flex flex-col items-center justify-center h-[100vh]
+  }
+  .rank--text {
+    @apply text-white text-7xl
+  }
+  .rank {
+    @apply mt-8 text-white text-5xl
+  }
+
+}
