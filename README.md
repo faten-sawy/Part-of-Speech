@@ -10,12 +10,12 @@
 - has 2 en dpoints each endpoint has controller**
 
 ### client 
-- has 2 pages :** <br/>
-1- speech has 4 functions:**<br/>
- - receiveData => get data from node
- - handleChoose => fired on click answer
- - resetButtonsStyle => change buttons style when click at any one of them
- - changeToNextWord => change word after answer after 1 seccond
+- has 2 pages :<br/>
+ 1- speech has 4 functions:**<br/>
+  - receiveData => get data from node
+  - handleChoose => fired on click answer
+  - resetButtonsStyle => change buttons style when click at any one of them
+  - changeToNextWord => change word after answer after 1 seccond
 
 
 ## How To Run Task ? 
