@@ -1,7 +1,8 @@
 import express,{Application,Request,Response} from 'express'
 import randomData from "./controllers/selectRandomData"
 import calcRank from './controllers/calcRank'
-const app:Application = express()
+
+export const app:Application = express()
 
 const cors = require("cors")
 const port = 4000
