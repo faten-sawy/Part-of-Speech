@@ -7,7 +7,7 @@
 
 ## task structure
 ### server 
-- has 2 en dpoints each endpoint has controller**
+- has 2 en dpoints each endpoint has controller
 
 ### client 
 - has 2 pages :<br/>
@@ -25,10 +25,12 @@
 
 ## How To Run Task ? 
 ### to run server :
-1- build : tsc -p . <br/>
-2- test : npm run jasmine <br/>
-3- npm run start <br/>
+1-npm i
+2- build : tsc -p . <br/>
+3- test : npm run jasmine <br/>
+4- npm run start <br/>
 
 ### to run client :
-1- npm run build <br/>
-2- npm run start <br/>
+1-npm i
+2- npm run build <br/>
+3- npm run start <br/>
