@@ -11,11 +11,13 @@
 
 ### client 
 - has 2 pages :<br/>
- 1- speech has 4 functions:**<br/>
+ 1- speech page has 4 functions:<br/>
   - receiveData => get data from node
   - handleChoose => fired on click answer
   - resetButtonsStyle => change buttons style when click at any one of them
   - changeToNextWord => change word after answer after 1 seccond
+  
+ 2-score rank has 1 function to get data from node
 
 
 ## How To Run Task ? 
