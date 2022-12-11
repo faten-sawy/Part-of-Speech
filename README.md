@@ -1,9 +1,9 @@
 # Part-of-Speech 
 
 ## Features done
-✅ use typescript /n
-✅ unit testing using jasmin to endpoint controllers /n
-✅ responsive /n
+✅ use typescript <br/>
+✅ unit testing using jasmin to endpoint controllers <br/>
+✅ responsive <br/>
 
 ## How To Run Task ? 
 ### to run server :
