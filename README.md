@@ -10,8 +10,8 @@
 - has 2 en dpoints each endpoint has controller**
 
 ### client 
-- has 2 pages :<br/>
- 1- speech page has 4 functions:<br/>
+- has 2 pages :
+ 1- speech page has 4 functions:
   - receiveData => get data from node
   - handleChoose => fired on click answer
   - resetButtonsStyle => change buttons style when click at any one of them
