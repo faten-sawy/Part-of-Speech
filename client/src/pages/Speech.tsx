@@ -80,7 +80,7 @@ const Speech = () => {
 
           <div className="buttons--container">
             {btns.map((item: string) => (
-              <div className="button-container">
+              <div className="button-container" key={item}>
                 <button
                   className="button"
                   onClick={(e) => handleChoose(item, e)}
