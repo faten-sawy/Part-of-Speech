@@ -26,6 +26,7 @@
 ## How To Run Task ? 
 ### to run server :
 1-npm i <br/>
+2-create dist folder on root <br/>
 2- build : tsc -p . <br/>
 3- test : npm run jasmine <br/>
 4- npm run start <br/>
